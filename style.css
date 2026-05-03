@@ -1,0 +1,141 @@
+/* Simple CSS for Student Management System */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+.nav {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 15px;
+    margin: 0 5px;
+    border: 1px solid #333;
+}
+
+.nav a:hover {
+    background-color: #333;
+    color: white;
+}
+
+/* Main content area */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* Success and error messages */
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c3e6cb;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Form styling */
+.form-box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-box h2 {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Action links in table */
+.edit-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.delete-link {
+    color: red;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    color: #999;
+    font-size: 13px;
+}
